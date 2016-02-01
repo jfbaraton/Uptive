@@ -5,7 +5,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/sample-cocos2d-js-spreetsheet/sample.zip",
       "projectGuid": "36ba8b36-b348-4c2d-a974-5b86ed9ff2eb",
-      "lastModifiedDate": 1440308067588,
+      "lastModifiedDate": 1454348013769,
       "creationDate": 1440307993074
     },
     "sourceDirectory": "www",
@@ -27,7 +27,7 @@
       {
         "id": "cordova-plugin-statusbar",
         "name": "StatusBar",
-        "version": "?",
+        "version": "2.1.0",
         "originType": "cordova.io",
         "origin": "cordova-plugin-statusbar",
         "gitref": "",
@@ -35,15 +35,16 @@
         "selectedState": "Included",
         "dependsOn": [],
         "topLevel": true,
-        "cordovaVersion": "?",
+        "cordovaVersion": ">=3.0.0",
         "permissions": {},
         "description": "Cordova StatusBar Plugin",
         "data": {},
-        "dependedBy": []
+        "dependedBy": [],
+        "checksum": "858cc583"
       },
       {
         "id": "cordova-plugin-device",
-        "version": "?",
+        "version": "1.1.1",
         "selectedState": "Included",
         "data": {},
         "paramvals": {},
@@ -55,11 +56,12 @@
         "topLevel": true,
         "gitref": "",
         "name": "Device",
-        "description": "Cordova Device Plugin"
+        "description": "Cordova Device Plugin",
+        "checksum": "927290ca"
       },
       {
         "id": "cordova-plugin-splashscreen",
-        "version": "?",
+        "version": "3.1.0",
         "selectedState": "Included",
         "data": {},
         "paramvals": {},
@@ -71,7 +73,28 @@
         "topLevel": true,
         "gitref": "",
         "name": "Splashscreen",
-        "description": "Cordova Splashscreen Plugin"
+        "description": "Cordova Splashscreen Plugin",
+        "checksum": "495c8f4e"
+      },
+      {
+        "id": "cordova-plugin-whitelist",
+        "name": "Whitelist",
+        "version": "1.2.1",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-whitelist",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-whitelist",
+        "selectedState": "Included",
+        "checksum": "c2b7660b",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=3.0.0",
+        "permissions": {},
+        "description": "Cordova Network Whitelist Plugin",
+        "data": {},
+        "dependedBy": [],
+        "custom": "true"
       }
     ],
     "buildConfigurations": {
@@ -102,8 +125,8 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "?",
-        "crosswalkVersion_": "?",
+        "cordovaCLIVersion_": "5.1.1",
+        "crosswalkVersion_": "15",
         "appVersion_": "0.0.1",
         "appDescription_": "A 2048 game sample built using Cocos2d-js that teaches developer to use spritesheet.",
         "appAuthor_": "Intel XDK",
@@ -136,8 +159,8 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "?",
-        "crosswalkVersion_": "?",
+        "cordovaCLIVersion_": "5.1.1",
+        "crosswalkVersion_": "14",
         "appVersion_": "0.0.1",
         "appDescription_": "A 2048 game sample built using Cocos2d-js that teaches developer to use spritesheet.",
         "appAuthor_": "Intel XDK",
@@ -170,8 +193,8 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "iosProvs_": [],
-        "cordovaCLIVersion_": "?",
-        "crosswalkVersion_": "?",
+        "cordovaCLIVersion_": "5.1.1",
+        "crosswalkVersion_": "14",
         "appVersion_": "0.0.1",
         "appAuthor_": "Intel XDK",
         "appDescription_": "A 2048 game sample built using Cocos2d-js that teaches developer to use spritesheet."
@@ -203,8 +226,8 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "appAuthor_": "Intel XDK",
-        "cordovaCLIVersion_": "?",
-        "crosswalkVersion_": "?",
+        "cordovaCLIVersion_": "5.1.1",
+        "crosswalkVersion_": "14",
         "appVersion_": "0.0.0.1",
         "appDescription_": "A 2048 game sample built using Cocos2d-js that teaches developer to use spritesheet."
       },
@@ -326,7 +349,7 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "appVersion_": "0.0.0.1",
-        "cordovaCLIVersion_": "?",
+        "cordovaCLIVersion_": "5.1.1",
         "appAuthor_": "Intel XDK"
       }
     },
