@@ -5,7 +5,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/sample-cocos2d-js-spreetsheet/sample.zip",
       "projectGuid": "36ba8b36-b348-4c2d-a974-5b86ed9ff2eb",
-      "lastModifiedDate": 1454348013769,
+      "lastModifiedDate": 1454352660114,
       "creationDate": 1440307993074
     },
     "sourceDirectory": "www",
@@ -109,7 +109,7 @@
           "Orientation": "portrait",
           "Fullscreen": true
         },
-        "isActive_": true,
+        "isActive_": false,
         "appName_": "Cocos2d-Spritesheet",
         "appID_": "demo.Cocos2djs3.SpritesheetSample",
         "appAccess_": {
@@ -209,7 +209,7 @@
           "Orientation": "portrait",
           "Fullscreen": true
         },
-        "isActive_": true,
+        "isActive_": false,
         "appName_": "Cocos2d-Spritesheet",
         "appID_": "demo.Cocos2djs3.SpritesheetSample",
         "appAccess_": {
