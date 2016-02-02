@@ -16,7 +16,7 @@ GC.h_2 = GC.h / 2;
 
 GC.gap = 16;
 
-GC.size = 4;
+GC.size = 3;
 
 GC.startTiles = 2;
 

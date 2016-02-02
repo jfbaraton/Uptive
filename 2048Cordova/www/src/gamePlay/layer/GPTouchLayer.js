@@ -291,9 +291,9 @@ var GPTouchLayer = cc.Layer.extend({
 
                         score += merged.value;
 
-                        // The mighty 2048 tile
+                        // if max score reached, playe has no chance to beat the least score...
                         if (merged.value === GC.winValue) {
-                            self.won = true;
+                            self.won = false;// so it's a lost game
                             self.gameOver();
                         }
                     } else {
@@ -443,10 +443,10 @@ var GPTouchLayer = cc.Layer.extend({
         this.lbAdd.stopAction();
         this.lbAdd.runAction(seqAction);
 
-        if (this.score > this.best) {
-            this.best = this.score;
-            this.lbBest.string = this.best.toString();
-        }
+        //if (this.score > this.best) {
+        //    this.best = this.score;
+        //    this.lbBest.string = this.best.toString();
+        //}
         this.lbScore.string = this.score.toString();
     },
     retestGame: function() {
@@ -473,6 +473,14 @@ var GPTouchLayer = cc.Layer.extend({
             opacity: 76
         });
         this.addChild(this.resultWin);
+        
+        //  if that beats the least score !
+        if (this.best == 0 || this.score < this.best) { // best is now the lowest
+            this.best = this.score;
+            this.lbBest.string = this.best.toString();
+            self.won = true;
+        }
+        
         this.lbResult = new cc.Sprite(this.won ? '#result_success.png' : '#result_failed.png');
         this.lbResult.attr({
             x: GC.w_2,
